@@ -1,11 +1,27 @@
 body {
   padding-top: 54px;
+  background-color: lightgreen;
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
+}
+
+.bg-custom {
+    background-color: Green!important;
+}
+
+.top {
+	padding-top: 30px;
+}
+
+.breadcrumb {
+	background-color: lightgreen;
+	border-style: solid;
+	border-color: green;
+	border-width: 2px;
 }
 
 .carousel-item {
